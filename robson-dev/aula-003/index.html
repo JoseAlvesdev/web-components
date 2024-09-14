@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="component.js" defer></script>
+    <style>
+      p {
+        color: red;
+      }
+
+      my-component {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <my-component
+      titulo="Component 1"
+      conteudo="Agora eu consigo passar valores promeu componente"
+    ></my-component>
+    <my-component
+      class="dois"
+      titulo="Component 2"
+      conteudo="Agora eu consigo passar valores promeu componente"
+    ></my-component>
+    <div>
+      <my-component
+        titulo="Component 3"
+        conteudo="Agora eu consigo passar valores promeu componente"
+      ></my-component>
+    </div>
+    <p>Parágrafo do light DOM</p>
+  </body>
+</html>
